@@ -17,6 +17,8 @@ metadata and the backend fallback mirror it. Archived Tauri manifests stay froze
 
 ### Fixed
 
+- Cloning keeps the chosen output language when switching references, and explicit Auto follows the target script instead of the sample language (#2272)
+
 - macOS shell installs refresh app registration, block replacement while running, and move uninstalled apps to Trash instead of leaving Launchpad-visible copies (#2269)
 - Electron upgrades preserve custom and portable storage paths recorded by archived setup (#2269)
 - Bug reports distinguish native faults from Python errors and preserve signed Windows codes and POSIX signals (#2267) — thanks @shivsin25!
