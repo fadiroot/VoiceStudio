@@ -17,6 +17,8 @@ metadata and the backend fallback mirror it. Archived Tauri manifests stay froze
 
 ### Fixed
 
+- Integrations with a shared vendor URL remain distinct when searching and filtering the catalog (#2273)
+
 - Cloning keeps the chosen output language when switching references, and explicit Auto follows the target script instead of the sample language (#2272)
 
 - macOS shell installs refresh app registration, block replacement while running, and move uninstalled apps to Trash instead of leaving Launchpad-visible copies (#2269)
