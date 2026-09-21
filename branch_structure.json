@@ -1,0 +1,33 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "codex/llm-provider-connections",
+    "feat/sidebar-hardware-auto",
+    "fix/cross-language-cloning",
+    "fix/db-backup-ignore-partial-snapshots",
+    "fix/desktop-packs-audio-quality-polish",
+    "fix/electron-validation",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "codex/llm-provider-connections": "main",
+    "feat/sidebar-hardware-auto": "main",
+    "fix/cross-language-cloning": "main",
+    "fix/db-backup-ignore-partial-snapshots": "main",
+    "fix/desktop-packs-audio-quality-polish": "main",
+    "fix/electron-validation": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "codex/llm-provider-connections",
+    "feat/sidebar-hardware-auto",
+    "fix/cross-language-cloning",
+    "fix/db-backup-ignore-partial-snapshots",
+    "fix/desktop-packs-audio-quality-polish",
+    "fix/electron-validation",
+    "origin"
+  ]
+}
